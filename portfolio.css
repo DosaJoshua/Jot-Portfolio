@@ -1,0 +1,293 @@
+body{
+    background-image: url(../Port-img.jpeg);
+     background-image: url(Port-img.jpeg); 
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: gold;
+    font-family: Roboto,sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+
+ .JOT:hover{
+  color: white;
+  transition: 1s;
+ }
+ 
+ 
+ .container h1 {
+ }
+
+ .info{
+    color: white;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+ .first{
+    display: flex;
+    flex-wrap: wrap;
+
+ }
+ .text-1 h2 {
+    color: aqua;
+    font-size: 40px;
+    margin-left: 40px;
+ }
+
+ .text-1 p {
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    line-height: 30px;
+ }
+
+ .text-1 a {
+    color: black;
+    background-color: gold;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 17px; 
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-family: Roboto,Arial;
+ }
+
+ .text-1 a:hover{
+  background-color: blueviolet;
+  border-color: gold;
+}
+
+ .text-1 a:active {background-color: aquamarine; font-size: 20px;transition: 0.3s;}
+
+.img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 75px;
+    border-color: aqua;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 40px;
+    margin-left: 40px;
+    transition: 0.7s;
+ }
+
+ .img:hover{
+   transform: translateY(15px);
+   border-color: blueviolet;
+ }
+
+ .name{
+   color: whitesmoke;
+    font-size: 40px;
+    font-family: Roboto,Arial;
+    line-height: 50px;
+    margin-left: 40px;
+ }
+
+ .container-2{
+   padding-top: 80px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ 
+ .container-2 h2 {
+   color: gold;
+   text-align: center;
+   font-size: 40px;
+ }
+
+ .card-container{
+   display: flex;
+   gap: 40px;
+   position: relative;
+ }
+ .card-image{
+  height: 150px;
+   border-radius: 10px;
+   position: relative;
+   display: inline-block; 
+ }
+ .card{
+   width: 300px;
+   position: relative;
+  /* background: rgba(50, 33, 33, 0.05); */
+   border: 1px solid rgb(62, 75, 75);
+   border-radius: 10px;
+   transition: 0.3s;
+   height: 150px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+ }
+
+ .card:hover{
+  border-color: aqua;
+  transform: translateY(-10px);
+ }
+
+ .card h3 {
+   color: blue;
+   top: 120px;
+   background-color: black;
+   border-radius: 5px;
+   position: absolute;
+   z-index: 9999s;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+ .card p {
+   color: rgb(143, 140, 140);
+   top: 150px;
+   position: absolute;
+   font-size: 13px;
+   color: aqua;
+ }
+
+ .portfolio-container{margin-top: 100px;}
+
+ .portfolio-card{
+  margin: 0;
+  display: flex;
+  flex: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .portfolio-container h3{
+  color: gold;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+
+ }
+.portfolio-container p{
+  color: aqua;
+  text-align: center;
+}
+ .card-2{
+   width: 300px;
+   background: rgba(50, 33, 33, 0.05);
+   border: 1px solid rgb(62, 75, 75);
+   border-radius: 10px;
+   transition: 0.3s;
+   height: 150px;
+   text-align: center;
+ }
+
+ .portfolio-image{
+  height: 200px;
+  width: 200px;
+  object-position: top;
+  object-fit: cover;
+  border-radius: 10px;
+  border-color: gold;
+  border-width: 3px;
+  border-style: solid;
+  transition: 0.5s;
+ }
+
+
+ .portfolio-image:hover{
+  border-color: aqua;
+  transform: translateY(-10px);
+ }
+
+ .cad- p{
+  color: aqua;
+
+ }
+ .contact-container {
+  margin-top: 70px;
+ } 
+
+ .contact-container h3 {
+  color: gold;
+  text-align: center;
+  font-size: 40px;
+ }
+
+ .contact-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+ }
+
+ .contact-container a {
+  text-decoration: none;
+  background-color: aqua;
+  color: black;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+ }
+
+ .contact-container a:hover{
+  background-color: blueviolet;
+  color: aqua;
+ }
+
+  .contact-container a:active{
+    background-color: yellow;
+    color: blueviolet;
+
+  }
+
+  footer{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+    color: white;
+    font-size: 17px;
+  }
+
+  footer p {
+     padding: 10px 0;
+  }
+
+@media(max-width: 900px){
+  .first{
+    flex-direction: column;
+    text-align: center;
+  }
+  .card-container{
+    flex-wrap: wrap;
+    flex: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .cad-{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+ 
+  
